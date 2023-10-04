@@ -1,0 +1,200 @@
+
+.comments-section {
+    margin: 0;
+    padding: 0;
+}
+
+.comments-section hr.comments-top-margin {
+    width: 100%;
+    margin: 2rem  auto;
+    border: none;
+    border-bottom-color: gray;
+    border-bottom-width: medium;
+    border-bottom-style: solid;
+}
+
+
+/*  When Logged In */
+
+.post-comment-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 1rem;
+    background-color: #f2f2f2;
+}
+
+.comment-input {
+    width: -moz-available;          
+    width: -webkit-fill-available;  
+    width: fill-available;
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+input.comment-input:focus {
+    box-shadow: 0 0 0;
+    border-bottom: 2px solid black;
+}
+
+.comments-post-button {
+    padding: 0.5rem 1rem;
+    margin-bottom: -0.5rem;
+    background-color: #11999E;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+}
+
+.comments-post-button:hover {
+    cursor: pointer;
+}
+
+.comments-post-button:active {
+    background-color: #40514E;
+}
+
+/* When Not Logged In */
+
+.login-signup-conatiner {
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p.comment-notice {
+    background-color: transparent;
+    font-weight: bold;
+    color: gray;
+    padding: 0;
+    margin: 0; 
+}
+
+.comments-login-button{
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 12px;
+    border: 2px solid #11999E;
+    background-color: white;
+    color: #11999E;
+    font-weight: bold;
+}
+
+.comments-signup-button{
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 12px;
+    background-color: #11999E;
+    border: 2px solid #11999E;
+    color: white;
+}
+
+.comments-login-button:hover, .comments-signup-button:hover {
+    cursor: pointer;
+}
+
+.comments-login-button:active {
+    background-color: #11999E;
+    color: white;
+}
+
+.comments-signup-button:active {
+    background-color: white;
+    color: #11999E;
+}
+
+/* Comments */
+.comments {
+    padding: 1rem;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Comment Styles */
+
+.comment-root-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-container{
+    padding: 0;
+    margin: 16px 0;
+    display: flex;
+    font-size: 14px;
+    align-items: flex-start;
+}
+
+.comment-heading-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.reply-icon {
+    transform: rotateY(180deg);
+    padding: 0 8px;
+    margin: 0;
+    color: gray;
+}
+
+.comment-body {
+    margin-left: 16px;
+}
+
+.comment-container p{
+    margin: 0;
+    padding: 0;
+}
+
+.comment-heading {
+    color: #40514E;
+    font-weight: bold;
+}
+
+.reply-text {
+    color: gray;
+    font-size: 12px;
+}
+
+.reply-text:hover{
+    cursor: pointer;
+}
+
+.reply-text:active {
+    font-weight: bold;
+}
+
+/* Post comments component */
+
+.comments-cancel-button {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: 2px solid gray;
+    background-color: #f2f2f2;
+    margin: 0 1rem;
+    margin-bottom: -0.5rem;
+}
+
+.comments-cancel-button:hover {
+    cursor: pointer;
+}
+
+.comments-cancel-button:active {
+    background-color: white;
+}

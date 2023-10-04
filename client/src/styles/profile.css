@@ -1,0 +1,60 @@
+
+.profile-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2em 10%;
+    font-family: Montserrat, sans-serif;
+}
+
+/* Left */
+
+.profile-pic {
+    width: stretch;
+    text-align: center;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.profile-left {
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Right */
+
+.profile-element {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    text-align: left;
+}
+
+.profile-right {
+    display: grid;
+    margin: 5rem 0 0 5rem;
+    justify-content: normal;
+    align-items: self-end;
+}
+
+.change-password {
+    align-self: end;
+}
+
+.update-button-container {
+    width: 80%;
+    margin: 1.5rem;
+    text-align: right;
+}
+
+.generic-button.update-button {
+    margin-right: -0.5rem;
+}

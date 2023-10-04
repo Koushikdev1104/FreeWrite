@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.post-page-container {
+    line-height: 1.6;
+    letter-spacing: 0.04rem;
+    text-align: justify;
+    padding: 2rem;
+    margin: 0 auto;
+    background-color: white;
+    font-family: Montserrat, sans-serif;
+    max-width: 800px;
+    width: stretch;
+}
+
+.post-page-container h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.post-page-container h3 {
+    margin: 0;
+    color: #8f8f8f;
+}
+
+.post-page-container p {
+    margin: 1.5rem 0;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.like-icon {
+    padding: 0.5rem 1rem;
+    box-shadow: 0 0 2px gray;
+    border-radius: 8px;
+}
+
+.like-icon.liked {
+    background-color: #30E3CA;
+    color: #E4F9F5;
+}
+
+.like-icon:hover {
+    cursor: pointer;
+}
+
+.likes-number {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+
+/* Author Card  */
+
+.author-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    padding-left: 0;
+}
+
+.author-profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.author-details-container{
+    margin: 0 1rem 0;
+}
+
+.author-card-container p {
+    margin: 0;
+    padding: 0 ;
+    font-size: 13px;
+}
+
+.author-card-container p:first-child {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.follow-button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    background-color: #11999E;
+    color: white;
+    border: none;
+    box-shadow: 2px 1px 4px gray;
+}
+
+.follow-button:hover {
+    cursor: pointer;
+}
+
+.follow-button:active {
+    box-shadow: -1px -2px 4px gray;
+}
+
+.follow-button.following {
+    background-color: #f2f2f2;
+    color: gray;
+    box-shadow: 0 0 0;
+}
+
+
+/* Tag Styles */
+
+p.tag-heading {
+    margin: 0 0.5rem;
+    padding: 0;
+}
+
+.tags-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin: 1rem 0;
+}
+
+.tag-container {
+    display: inline-flex;
+    font-size: 12px;
+    color: #40514E;
+    padding: 0.13rem 0.8rem;
+    margin: 0.25rem;
+    align-items: center;
+    background-color: #30E3CA;
+    border-radius: 37%;
+}
+
+.tag-container:hover {
+    cursor: pointer;
+}

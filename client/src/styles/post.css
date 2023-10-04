@@ -1,0 +1,55 @@
+.post-container {
+    line-height: 1.5;
+    min-width: stretch;
+    min-height: stretch;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem;
+    background-color: white;
+    box-shadow: 0px 0px 2px gray;
+}
+
+.post-container a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.post-container a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.post-container h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.post-container h3 {
+    margin: 0;
+    color: #8f8f8f;
+}
+
+.post-container a:hover {
+    cursor: pointer;
+}
+
+.options-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.options-container.show-edit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hide-edit-button {
+    display: none;
+}
+
+.show-edit-button {
+    display: block;
+}
